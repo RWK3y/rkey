@@ -1,10 +1,25 @@
 {{ define "main"}}
     <main id="main">
       <div>
-       <h1 id="title">Not found</h1>
-       <p>Oops! This page doesn't exist. Try going back to our <a href="{{ "/" | relURL }}">home page</a>.</p>
+        <style>
+        h1 {
+       	 text-align: center;
+        }
+         h2 {
+                text-align: center;
+        }
 
-       <p>You can learn how to make a 404 page like this in <a href="https://gohugo.io/templates/404/">Custom 404 Pages</a>.</p>      
+        <title>Page doesn't exist</title>
+        </style>
+        </head>
+        <body style="background-color:#343a40;"><font color="gray">
+        <h1>Page doesn't exist</h1>
+        <p style="text-align:center;"><img src="mechspdr404.png" alt="Page Not Found 404" width="500"
+                height="500">
+       <h3>
+           The best alternative would be to return <a href="/" style="color: #30638E" target="_blank">home</a> and try again.
+       </h3>
+        </body>
       </div>
     </main>
 {{ end }}
