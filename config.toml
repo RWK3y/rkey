@@ -4,9 +4,9 @@ title = "RKey Tech"
 # Language settings
 contentDir = "content/en"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 # Useful when translating.
-enableMissingTranslationPlaceholders = false
+enableMissingTranslationPlaceholders = true
 
 enableRobotsTXT = true
 
@@ -130,7 +130,7 @@ github_project_repo = "https://github.com/Opekktar/rkey"
 # github_branch= "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "87749f1be0cb3e8c6"
+gcs_engine_id = "f7e0412522f5e71fd"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
@@ -174,11 +174,11 @@ enable = true
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
-[[params.links.user]]
-  name = "User mailing list"
-  url = "https://rkey.tech/mail"
-  icon = "fa fa-envelope"
-  desc = "Discussion and help from your fellow users"
+#[[params.links.user]]
+#  name = "User mailing list"
+#  url = "https://rkey.tech/mail"
+#  icon = "fa fa-envelope"
+#  desc = "Discussion and help from your fellow users"
 [[params.links.user]]
   name ="Twitter"
   url = "https://twitter.com/rkey_tech"
@@ -200,8 +200,8 @@ enable = true
 #  url = "https://example.org/slack"
 #  icon = "fab fa-slack"
 #  desc = "Chat with other project developers"
-[[params.links.developer]]
-  name = "Developer mailing list"
-  url = "https://rkey.tech/mail"
-  icon = "fa fa-envelope"
-  desc = "Discuss development issues around the project"
+#[[params.links.developer]]
+#  name = "Developer mailing list"
+#  url = "https://rkey.tech/mail"
+#  icon = "fa fa-envelope"
+#  desc = "Discuss development issues around the project"
