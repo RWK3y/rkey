@@ -185,6 +185,32 @@ enable = true
   icon = "fab fa-twitter"
   desc = "Follow us on Twitter to get the latest news!"
 [[params.links.user]]
+  name ="Gitlab"
+  url = "https://gitlab.com/opekktar"
+  icon = "fab fa-gitlab"
+  desc = "Follow me on Gitlab to see the latest projects!"
+[[params.links.user]]
+  name ="Gitlab"
+  url = "https://github.com/opekktar"
+  icon = "fab fa-github"
+  desc = "Follow me on Github to see the latest projects!"
+[[params.links.user]]
+  name ="Mastodon"
+  url = "https://infosec.exchange/@rkey"
+  icon = "fab fa-mastodon"
+  desc = "Follow me @FreeRadicalZone to see the latest toots!"
+#[[params.links.user]]
+#  name ="Reddit"
+#  url = "https://www.reddit.com/user/opekktar"
+#  icon = "fab fa-reddit"
+#  desc = "Follow me on Reddit to see the latest BS!"
+#[[params.links.user]]
+#  name ="Tumblr"
+#  url = "https://www.tumblr.com/blog/view/opekktar"
+#  icon = "fab fa-tumblr"
+#  desc = "Follow me on Tumblr to see the latest Nothing!"
+
+#[[params.links.user]]
   #name = "Stack Overflow"
   #url = "https://example.org/stack"
   #icon = "fab fa-stack-overflow"
