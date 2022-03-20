@@ -183,14 +183,14 @@ enable = true
   name ="Twitter"
   url = "https://twitter.com/rkey_tech"
   icon = "fab fa-twitter"
-  desc = "Follow us on Twitter to get the latest news!"
+  desc = "Follow me on Twitter to get the latest news!"
 [[params.links.user]]
   name ="Gitlab"
   url = "https://gitlab.com/opekktar"
   icon = "fab fa-gitlab"
   desc = "Follow me on Gitlab to see the latest projects!"
 [[params.links.user]]
-  name ="Gitlab"
+  name ="GitHub"
   url = "https://github.com/opekktar"
   icon = "fab fa-github"
   desc = "Follow me on Github to see the latest projects!"
@@ -198,7 +198,27 @@ enable = true
   name ="Mastodon"
   url = "https://infosec.exchange/@rkey"
   icon = "fab fa-mastodon"
-  desc = "Follow me @FreeRadicalZone to see the latest toots!"
+  desc = "Follow me @InfoSecExchange to see the latest toots!"
+[[params.links.user]]
+  name ="Reddit"
+  url = "https://www.reddit.com/user/opekktar"
+  icon = "fab fa-reddit"
+  desc = "Follow me on Reddit to see the latest BS!"
+[[params.links.user]]
+  name ="Tumblr"
+  url = "https://www.tumblr.com/blog/view/opekktar"
+  icon = "fab fa-tumblr"
+  desc = "Follow me on Tumblr to see the latest Nothing!"
+[[params.links.user]]
+  name ="FaceBook"
+  url = "https://www.facebook.com/robwkeytech/"
+  icon = "fab fa-facebook"
+  desc = "Follow me on FaceBook to get nothing much!"
+[[params.links.user]]
+  name ="Instagram"
+  url = "https://www.instagram.com/robwkeytech/"
+  icon = "fab fa-instagram"
+  desc = "Follow me on Instagram to see all the photos I don't post!"
 #[[params.links.user]]
 #  name ="Reddit"
 #  url = "https://www.reddit.com/user/opekktar"
@@ -221,6 +241,11 @@ enable = true
   url = "https://github.com/Opekktar/rkey"
   icon = "fab fa-github"
   desc = "Development takes place here!"
+[[params.links.developer]]
+  name = "Gitlab"
+  url = "https://gitlab.com/Opekktar/opekkt"
+  icon = "fab fa-gitlab"
+  desc = "Development mirrored on Gitlab!"
 #[[params.links.developer]]
 #  name = "Slack"
 #  url = "https://example.org/slack"
